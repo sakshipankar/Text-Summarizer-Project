@@ -1,12 +1,13 @@
-from textSummarizer.logging import logger
+from src.textSummarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from src.textSummarizer.logging import logger 
 
-logger.info("Starting main.py execution.")
+STAGE_NAME = "Data Ingestion stage"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<<<")
+    data_ingestion = DataIngestionTrainingPipeline
+    data_ingestion.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<<\n\nx=========x")
 
-# try:
-#     logger.info("This log should be written to running_logs.log")
-#     print("Logging inside main.py should work.")
-# except Exception as e:
-#     print(f"Logging failed: {e}")
-#     logger.error(f"Logging failed: {e}")
-
-logger.info("End of main.py execution.")
+except Exception as e:
+    logger.exception(e)
+    raise e
