@@ -14,9 +14,9 @@
 ### STEPS:
 
 ### Clone the repository 
-'''bash 
+```bash 
 D:\text_summ_krish_naik\Text-Summarizer-Project
-'''
+```
 
 
 
