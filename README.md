@@ -13,10 +13,10 @@
 
 ### STEPS:
 
-### 1.Clone the repository 
-''' bash 
-git clone D:\text_summ_krish_naik\Text-Summarizer-Project
-
+### Clone the repository 
+'''bash 
+D:\text_summ_krish_naik\Text-Summarizer-Project
+'''
 
 
 
