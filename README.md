@@ -1,13 +1,13 @@
 # Text-Summarizer-Project
 # workflow
-Update config.yaml
-Update param.yaml
-Update entity
-Update the configuraton manager in src config
-Update components
-Update pipeline
-Update main.py
-Update app.py
+1.Update config.yaml
+2.Update param.yaml
+3.Update entity
+4.Update the configuraton manager in src config
+5.Update components
+6.Update pipeline
+7.Update main.py
+8.Update app.py
 
 ## How to run?
 
