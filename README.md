@@ -19,11 +19,21 @@
 ```bash 
 https://github.com/sakshipankar/Text-Summarizer-Project
 ```
-### Step1 - Create  Virtual environment 
+### Step 01 - Create  Virtual environment 
 ```bash 
 python -m venv venv
 
 .\venv\Scripts\activate 
+```
+
+### Step 02 - Install the requirements
+```bash 
+pip install -r requirements.txt
+```
+
+### run 
+``` bash 
+python app.py
 ```
 ---
 
